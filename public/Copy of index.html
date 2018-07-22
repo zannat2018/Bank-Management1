@@ -1,0 +1,362 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="Raihan" content="Bank">
+
+    <title>Need Bank.Web</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <!-- Custom styles for this template -->
+    <link href="css/scrolling-nav.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <nav style="background-image:url(img/bank_banner1.jpg); background-position:center; background-repeat:no-repeat; background-size:cover;" class="navbar navbar-expand-lg navbar-toggler  fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top"><img src="img/bank_logo.png" style="height:55px; width:100px;" alt="logo"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger btn btn-outline-info" href="#service">Services </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger btn btn-outline-info" href="#Banking">E-Banking</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger btn btn-outline-info" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger btn btn-outline-info" href="#contact">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger btn btn-outline-info" href="../loan_calculator.php">Loan Calculator</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+    <!--carosel start ------------------->
+<div class="container" >
+      <div class="row my-4">
+        <div class="col-lg-8">
+          <img class="img-fluid rounded" src="./img/maxre.jpg" alt="">
+        </div>
+        <!--Modalf-->
+        <div class="modal fade" id="myModal" role="dialog">
+        <div class="modal-dialog">
+        
+          <!-- Modal content-->
+          <div class="modal-content">
+              <div class="modal-header bg-info"><h3 style="color:#FFF; text-align:center;">Register as if you are a customer Need Bank</h3></div>
+            <div class="modal-body">
+              <form method="post" action="">
+              <input class="form-control" type="text" name="accNo" placeholder="Enter bank account number"><br>
+              <input class="form-control" type="text" name="pin" placeholder="Enter your PIN number"><br>
+              <input class="form-control" type="password" name="password" placeholder="enater a password 6-8 digits"><br>
+              <input class="form-control" type="password" name="confpass" placeholder="Retype password"><br>
+
+              <input class="btn btn-success" type="submit" name="submit" value="Register">
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+        <!--Modal -->
+
+
+        <!-- /.col-lg-8 -->
+        <div class="col-lg-4 bg-secondary text-white">
+          <h4>If you are a registered Customer of Need Bank</h4>
+              <form name="custReg" id="custReg" method="post">
+                    <fieldset class="form-group">
+                        <input type="text" name="accNo" class="input-lg form-control" placeholder="Enter your bank account number">
+                    </fieldset>
+                    
+                    <fieldset class="form-group">
+                       <input type="password" name="password" class="input-lg form-control" placeholder="Enter a password">
+                    </fieldset>
+                    
+                    <fieldset class="form-group">
+                        <input class="btn btn-outline-light bg-success btn-block" type="submit" value="Login">
+                    </fieldset>
+                    
+                </form>
+          <h4 class="text-center">Or</h4>
+          <button type="button" class="btn btn-outline-light bg-success btn-block" data-toggle="modal" data-target="#myModal">Register</button>
+        </div>
+        <!-- /.col-md-4 -->
+        </div>
+
+    <section id="service">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2><a href="#" class="btn btn-outline-warning btn-lg" data-toggle="collapse">Services we offer</h2></a>
+            <div id="demo" class="collapse">
+            <p class="lead">This is a great place to talk about your webpage. 
+              This template is purposefully unstyled so you can use it as a 
+            boilerplate or starting point for you own landing page designs! This template features:</p>
+                </div>
+                <div class="row">
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                          <img class="sealImage" alt="No image" src="./img/Bank2.png">
+                            <div class="caption">
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Corporate Banking</a></h4>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                              <ul>
+                                  <li>Corporate Banking Services Overview</li>
+                                  <li>Electronic Banking For Your Business</li>
+                                  <li> LC Trade</li>                                                                    
+                               </ul>
+                            </div>
+                                  <div class="ratings">
+                                  <p class="pull-right">15 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img class="sealImage" src="./img/card2.jpg" >
+                            <div class="caption">                                
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">SME Banking</a> </h4>
+                                <ul>
+                                  <li>Need Bank Smart Cash Credit</li>
+                                   <li> Need Bank Smart Term Loan</li>
+                                    <li>Need Bank Smart Festival Loan</li>
+                                    <li>Need Bank Smart Women Entrepreneurs Financing</li>
+                                    <li>Need Bank Smart Distributor Financing</li>
+                                    <li>Cash Credit (Hypo) Under Small Shop Financing Scheme</li>
+                                    </ul>
+
+                            <p>Our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+
+                            </div>
+                            <div class="ratings">
+                            <p class="pull-right">15 reviews</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                            <img class="sealImage" src="./img/carde3.jpg" alt="">
+                            <div class="caption">
+                               
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Personal Banking</a></h4>
+                              <ul>
+                                <li>Electronic Banking</li>
+                                <li>DBBL Retail Loan Products</li>
+                                <li>Dutch-Bangla Bank Future Line</li>
+
+                              </ul>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                                </div>
+                                <div class="ratings">
+                                <p class="pull-right">15 reviews</p>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                        <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                          <img class="sealImage" alt="No image" src="./img/article.jpg">
+                            <div class="caption">
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Corporate Banking</a></h4>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                              <ul>
+                                  <li>Corporate Banking Services Overview</li>
+                                  <li>Electronic Banking For Your Business</li>
+                                  <li> LC Trade</li>                                                                    
+                               </ul>
+                            </div>
+                                  <div class="ratings">
+                                  <p class="pull-right">15 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                          <img class="sealImage" alt="No image" src="./img/Transfers-2.jpg">
+                            <div class="caption">
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Corporate Banking</a></h4>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                              <ul>
+                                  <li>Corporate Banking Services Overview</li>
+                                  <li>Electronic Banking For Your Business</li>
+                                  <li> LC Trade</li>                                                                    
+                               </ul>
+                            </div>
+                                  <div class="ratings">
+                                  <p class="pull-right">15 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                          <img class="sealImage" alt="No image" src="./img/cor.jpg">
+                            <div class="caption">
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Corporate Banking</a></h4>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                              <ul>
+                                  <li>Corporate Banking Services Overview</li>
+                                  <li>Electronic Banking For Your Business</li>
+                                  <li> LC Trade</li>                                                                    
+                               </ul>
+                            </div>
+                                  <div class="ratings">
+                                  <p class="pull-right">15 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+  </div> <!--row close-->          
+
+    </section>
+
+    <section id="Banking" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mx-auto">
+            <h2 class="btn btn-outline-warning btn-lg">E-Banking </h2>
+            <p>We provide Heighly secure Electronic Banking facelityes for your Transaction. That is make your life style more easyer and comfortable
+            Every purchase and shopping we provide you finest transaction to your door steps. </p>
+              <div class="row">
+              <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                          <img class="sealImage" alt="No image" src="./img/download.jpg">
+                            <div class="caption">
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Corporate Banking</a></h4>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                              <ul>
+                                  <li>Corporate Banking Services Overview</li>
+                                  <li>Electronic Banking For Your Business</li>
+                                  <li> LC Trade</li>                                                                    
+                               </ul>
+                            </div>
+                                  <div class="ratings">
+                                  <p class="pull-right">15 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+
+                      <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                          <img class="sealImage" alt="No image" src="./img/card.png">
+                            <div class="caption">
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Corporate Banking</a></h4>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                              <ul>
+                                  <li>Corporate Banking Services Overview</li>
+                                  <li>Electronic Banking For Your Business</li>
+                                  <li> LC Trade</li>                                                                    
+                               </ul>
+                            </div>
+                                  <div class="ratings">
+                                  <p class="pull-right">15 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 col-lg-4 col-md-4">
+                        <div class="thumbnail">
+                          <img class="sealImage" alt="No image" src="./img/corporat.jpg">
+                            <div class="caption">
+                              <h4><a class="btn btn-outline-success btn-lg" href="#">Corporate Banking</a></h4>
+                                <p>our Activity <a target="_blank" href="http://www.bootsnipp.com">http://phphyperteam.com</a>.</p>
+                              <ul>
+                                  <li>Corporate Banking Services Overview</li>
+                                  <li>Electronic Banking For Your Business</li>
+                                  <li> LC Trade</li>                                                                    
+                               </ul>
+                            </div>
+                                  <div class="ratings">
+                                  <p class="pull-right">15 reviews</p>
+                            </div>
+                        </div>
+                    </div>
+              </div>
+          </div>
+        </div>
+     
+    </section>
+
+<section id="about">
+      <div class="container">
+        
+          <div class="col-lg-8 mx-auto">
+            <h2><a href="#demo" data-toggle="collapse" class="btn btn-outline-warning btn-lg">About us</h2></a>
+              <div id="demo" class="collapse">
+            <p class="lead">The Electronic-Banking Division was established in 2002 to undertake rapid automation and bring modern banking services into this field. Full automation was completed in 2003 and hereby introduced plastic money to the Bangladeshi masses. Dutch Bangla Bank also operates the nation's largest ATM fleet and in the process drastically cut consumer costs and fees by 80%. Moreover, Dutch Bangla Bank choosing the low profitability route for this sector has surprised many critics. </p>
+          </div>
+          </div>
+      </div>
+    </section>
+
+    <section id="contact" class="bg-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2 class="btn btn-outline-warning btn-lg">Contact us</h2>
+            <p class="lead"> Our Team will plised to sere you Leave a message for us.</p>
+
+              <form action="/action_page.php">
+              <div class="form-group">
+                <label for="email">Email address:</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+              <div class="form-group">
+                <label for="email">Your Message:</label>
+                <textarea class="form-control" id="msg"></textarea>
+               
+              </div>
+                                                     
+              <button type="submit" class="btn btn-outline-secondary btn-sm">Submit</button>
+            </form>
+        </div>
+        </div>
+      </div>
+    </section>
+</div><!--container closed--->
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Team Bank managrment 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
+
+  </body>
+
+</html>

@@ -1,0 +1,54 @@
+
+
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0; padding-top: 10px;
+}
+
+/* Scrolling option is end here the carde option is started here  */
+
+h4{padding-top: 8px;}
+
+
+#about{padding-top: 10px; padding-right: 90px;}
+
+#contact{ padding-top: 20px;
+}
+
+#mainNav{background-color: rgb(248, 250, 240); color: #F9FBFB;
+
+}
+.nav-item{ padding-left: 10px;
+
+}
+section #Banking{padding-top: 10px; }
+
+body {
+    padding-top: 70px;}
+
+.caption {
+    height: 130px;
+    overflow: hidden;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption-full {
+    padding: 9px;
+    color: #7283a7;
+}
+
+.sealImage {border-radius: 15px 50px;
+
+}
